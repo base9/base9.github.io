@@ -171,13 +171,14 @@ header {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(../img/header-bg.png);
+  background-image: url(../img/header-bg-3.png);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  min-height: 1000px; }
 
 header .intro-text {
   padding-top: 100px;
@@ -214,7 +215,8 @@ header .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
-    color: #fed136; }
+    color: #fed136; 
+    padding-top: 150px; }
  }
 
 section {
